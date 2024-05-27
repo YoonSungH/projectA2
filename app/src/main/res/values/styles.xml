@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.BlackNoActionBar">
+        <item name="colorPrimary">#292929</item> <!-- AppBar에 사용되는 기본 색상 -->
+        <item name="colorPrimaryDark">#292929</item> <!-- 상태 바를 위한 더 어두운 버전 -->
+        <item name="android:statusBarColor">#292929</item> <!-- 상태 바 색상 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

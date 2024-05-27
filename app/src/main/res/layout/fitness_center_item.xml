@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- ImageView for displaying image -->
+    <ImageView
+        android:id="@+id/ivFitnessCenterImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chair_white_bg" />
+
+    <!-- TextViews for other data -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/puradak_gentle_gothic"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+
+        <TextView
+            android:id="@+id/tvFitnessCenterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/puradak_gentle_gothic"
+            android:textAlignment="textStart"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvFitnessCenterDailyPassPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/puradak_gentle_gothic"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvFitnessCenterdistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/puradak_gentle_gothic"
+            android:textAlignment="textStart"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tvFitnessCenterAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/puradak_gentle_gothic"
+            android:textAlignment="textStart"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</LinearLayout>

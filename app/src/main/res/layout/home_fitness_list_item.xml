@@ -1,0 +1,61 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/homePageCenterImg"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chair_white_bg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignBottom="@id/homePageCenterImg"
+                android:background="@drawable/gradient_black_transparent" />
+
+            <!-- 제목과 가격을 그라디언트 뷰보다 상위에 배치 -->
+            <TextView
+                android:id="@+id/textViewItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/homePageCenterImg"
+                android:layout_marginBottom="30dp"
+                android:text="Gym Name"
+                android:fontFamily="@font/puradak_gentle_gothic"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:id="@+id/textViewItemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/homePageCenterImg"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/puradak_gentle_gothic"
+                android:text="Price"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:paddingLeft="16dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
