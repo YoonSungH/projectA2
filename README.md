@@ -7,6 +7,7 @@
 ### 🖥️ 프로젝트 소개
 
 * Spring boot, Android(Kotlin)을 활용한 어플리케이션 제작 프로젝트 입니다.
+* 같은 Git에 있는 'A2-Server' repository와 연동되어있습니다.
 
 ---
 
